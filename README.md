@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<br><img src="http://g.recordit.co/2aI1PINT79.gif" width=200>
+<br><img src="http://g.recordit.co/2aI1PINT79.gif" width=800, height=800>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
