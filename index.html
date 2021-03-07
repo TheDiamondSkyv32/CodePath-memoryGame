@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#" />
+
+
+    <title>Memory & Sound Game!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+
+  </head>  
+    <h2>
+      Welcome to my Minecraft themed Sound & Memory Game!
+      </h2>
+  <body>
+    <div id = "audioFiles">
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FZombie_idle1.ogg?v=1615055803870" id="zombieSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FHorse_angry.oga?v=1615056610600" id="horseSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_SpiderIdle-001.ogg?v=1615055707379" id="spiderSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FVillager_idle1.oga?v=1615055601500" id="villagerSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FEnderIdle.mp3.mpeg?v=1615055252993" id="endermanSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_sheepIdle-002_soundWave.ogg?v=1615055529721" id="sheepSound"></audio>
+      
+    </div>
+    <p>
+      Are you ready for a challenge? Select a difficulty and repeat back the given pattern by clicking the corresponding shape!
+    </p>
+    <br>
+    <div id ="Game_Difficulties">
+      <button id="Easy" onclick="alertDifficulty(this.id); setDifficulty(Easy)">
+        Easy
+      </button>
+      <button id = "Medium" onclick="alertDifficulty(this.id); setDifficulty(Medium)">
+        Medium
+      </button>
+      <button id = "Hard" onclick="alertDifficulty(this.id); setDifficulty(Hard)">
+        Hard
+      </button>
+      <button id = "Very Hard" onclick="alertDifficulty(this.id); setDifficulty(Very_Hard)">
+        Very Hard
+      </button>
+      <button id = "Extreme" onclick="alertDifficulty(this.id); setDifficulty(Extreme)">
+        Extreme
+      </button>
+      <button id = "European Extreme" onclick="alertDifficulty(this.id); setDifficulty(European_Extreme)">
+        European Extreme
+      </button>
+    </div>
+    <br>
+    <button id = "current_difficulty">
+      Current Difficulty: 
+    </button>
+    <br><br><br><br>
+    
+    <div id = "StartandEnd">
+      <button id = "startBtn" onclick="startGame()">
+        Start
+      </button>    
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button> 
+    </div>
+
+    
+    <br><br>
+    <div id = "gameButtonArea">
+      <button id = "button1" onmousedown="testPlayAudio('zombieSound');"     value="zombieSound"    onclick="guess(1)"></button>
+      <button id = "button2" onmousedown="testPlayAudio('horseSound');"      value="horseSound"     onclick="guess(2)"></button>
+      <button id = "button3" onmousedown="testPlayAudio('spiderSound');"     value="spiderSound"    onclick="guess(3)"></button>
+      <button id = "button4" onmousedown="testPlayAudio('villagerSound');"   value="villagerSound"  onclick="guess(4)"></button>
+      <button id = "button5" onmousedown="testPlayAudio('endermanSound');"   value="endermanSound"  onclick="guess(5)"></button>
+      <button id = "button6" onmousedown="testPlayAudio('sheepSound');"      value="sheepSound"     onclick="guess(6)"></button>
+
+    </div>
+    <br><br><br><br><br>
+    <!-- Code no longer needed for sound & outdated
+    <div id = "soundButtons">
+      <button id = "startSoundbtn" onclick="startSound()">
+        Enable sound?
+      </button>
+      <button id="stopSoundbtn" class="hidden" onclick="stopSound()">
+        Disable sound?
+      </button>
+    </div>
+--> 
+
+  </body>
+  <!-- import the webpage's javascript file -->
+  <script src="/script.js" defer></script>
+</html>
+

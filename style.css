@@ -1,0 +1,101 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: brush-script-mt, georgia, tahoma, arial, verdana, helvetica, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: rgb(50,200,255);
+}
+
+h2 {
+  font-family: georgia, arial, verdana, sans-serif;
+  font-style: bold, italic;
+  text-decoration: underline;
+  color: rgb(255,255,76);
+}
+
+#StartandEnd > button{
+  width: 40x;
+  height: 40px;
+  font-style: italic;
+}
+
+#gameButtonArea > button{
+  width:  200px;
+  height: 200px;
+  margin: 2px;
+  border-radius:100px;
+}
+
+#Game_Difficulties > button{
+  font-style: italic;
+  font-family: helvetica, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Button Backgrounds */
+
+#button1{
+  background:  lightgreen;
+}
+
+#button2{
+  background:  lightblue
+}
+
+#button3{
+  background:  pink;
+}
+
+#button4{
+  background:  lightyellow;
+}
+
+#button5{
+  background: magenta;
+}
+
+#button6{
+  background: black;
+}
+
+/*Active Click Colors*/
+
+#button1:active, #button1.lit{
+  background-image:  url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_903.png?v=1615057761377");
+}
+
+#button2:active, #button2.lit{
+  background-image:  url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_905.png?v=1615057833823");
+}
+
+#button3:active, #button3.lit{
+  background-image:  url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_906.png?v=1615057891027");
+}
+
+#button4:active, #button4.lit{
+  background-image:  url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_907.png?v=1615057926476");
+}
+
+#button5:active, #button5.lit{
+  background-image: url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_910.png?v=1615058318738")
+}
+
+#button6:active, #button6.lit{
+  background-image: url("https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FScreenshot_909.png?v=1615058286770");
+}
+
+/*Sound Button Format
+#soundButtons > button{
+  background: lightblue;
+  font-family:  georgia;
+  padding: 35x;
+}
+
+#soundButtons:active > button{
+  background: slategrey;
+}
+*/
