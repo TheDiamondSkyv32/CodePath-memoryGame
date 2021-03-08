@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [x] Added difficulty levels: Easy, Medium, Hard, Very Hard, Extreme, European Extreme; 5, 8, 12, 16, 20, 25 waves respectively.
 
 ## Video Walkthrough
 
