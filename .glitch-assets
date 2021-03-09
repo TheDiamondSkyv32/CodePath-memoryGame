@@ -34,3 +34,7 @@
 {"uuid":"so1V5FBLusVs4gHS","deleted":true}
 {"uuid":"OzV3S0Ii9nXMxPgB","deleted":true}
 {"uuid":"HNtwiF6vBJECD0kL","deleted":true}
+{"name":"mixkit-unlock-game-notification-253.wav","date":"2021-03-08T18:05:23.926Z","url":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2Fmixkit-unlock-game-notification-253.wav","type":"audio/wav","size":247230,"thumbnail":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2Fthumbnails%2Fmixkit-unlock-game-notification-253.wav","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"EK6ISp9MqTBcYpOr"}
+{"uuid":"EK6ISp9MqTBcYpOr","deleted":true}
+{"name":"gameLoseSound.wav","date":"2021-03-08T18:06:00.892Z","url":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FgameLoseSound.wav","type":"audio/wav","size":529984,"thumbnail":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2Fthumbnails%2FgameLoseSound.wav","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"6IWAGdflsDPInejp"}
+{"name":"gameWinSound.wav","date":"2021-03-08T18:06:05.513Z","url":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FgameWinSound.wav","type":"audio/wav","size":247230,"thumbnail":"https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2Fthumbnails%2FgameWinSound.wav","thumbnailWidth":210,"thumbnailHeight":210,"uuid":"UohtntLU0H1feJUI"}
