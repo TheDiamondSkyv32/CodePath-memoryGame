@@ -19,12 +19,15 @@
       </h2>
   <body>
     <div id = "audioFiles">
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FZombie_idle1.ogg?v=1615055803870" id="zombieSound"></audio>
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FHorse_angry.oga?v=1615056610600" id="horseSound"></audio>
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_SpiderIdle-001.ogg?v=1615055707379" id="spiderSound"></audio>
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FVillager_idle1.oga?v=1615055601500" id="villagerSound"></audio>
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FEnderIdle.mp3.mpeg?v=1615055252993" id="endermanSound"></audio>
-      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_sheepIdle-002_soundWave.ogg?v=1615055529721" id="sheepSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FZombie_idle1.ogg?v=1615055803870"                       id="zombieSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FHorse_angry.oga?v=1615056610600"                        id="horseSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_SpiderIdle-001.ogg?v=1615055707379"             id="spiderSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FVillager_idle1.oga?v=1615055601500"                     id="villagerSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FEnderIdle.mp3.mpeg?v=1615055252993"                     id="endermanSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FSfx_mob_sheepIdle-002_soundWave.ogg?v=1615055529721"    id="sheepSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FgameWinSound.wav?v=1615226765513"                       id="winGameSound"></audio>
+      <audio src = "https://cdn.glitch.com/460a030d-610e-4333-a860-0bd442b2a23a%2FgameLoseSound.wav?v=1615226760892"                      id="loseGameSound"></audio>
+      
       
     </div>
     <p>
@@ -55,6 +58,7 @@
     <button id = "current_difficulty">
       Current Difficulty: 
     </button>
+    
     <br><br><br><br>
     
     <div id = "StartandEnd">
@@ -69,12 +73,12 @@
     
     <br><br>
     <div id = "gameButtonArea">
-      <button id = "button1" onmousedown="testPlayAudio('zombieSound');"     value="zombieSound"    onclick="guess(1)"></button>
-      <button id = "button2" onmousedown="testPlayAudio('horseSound');"      value="horseSound"     onclick="guess(2)"></button>
-      <button id = "button3" onmousedown="testPlayAudio('spiderSound');"     value="spiderSound"    onclick="guess(3)"></button>
-      <button id = "button4" onmousedown="testPlayAudio('villagerSound');"   value="villagerSound"  onclick="guess(4)"></button>
-      <button id = "button5" onmousedown="testPlayAudio('endermanSound');"   value="endermanSound"  onclick="guess(5)"></button>
-      <button id = "button6" onmousedown="testPlayAudio('sheepSound');"      value="sheepSound"     onclick="guess(6)"></button>
+      <button id = "button1" onmousedown="playAudio('zombieSound');"     value="zombieSound"    onclick="guess(1)" class = "testing123"></button>
+      <button id = "button2" onmousedown="playAudio('horseSound');"      value="horseSound"     onclick="guess(2)" class = "testing123"></button>
+      <button id = "button3" onmousedown="playAudio('spiderSound');"     value="spiderSound"    onclick="guess(3)" class = "testing123"></button>
+      <button id = "button4" onmousedown="playAudio('villagerSound');"   value="villagerSound"  onclick="guess(4)" class = "testing123"></button>
+      <button id = "button5" onmousedown="playAudio('endermanSound');"   value="endermanSound"  onclick="guess(5)" class = "testing123"></button>
+      <button id = "button6" onmousedown="playAudio('sheepSound');"      value="sheepSound"     onclick="guess(6)" class = "testing123"></button>
 
     </div>
     <br><br><br><br><br>
