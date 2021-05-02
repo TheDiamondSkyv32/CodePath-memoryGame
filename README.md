@@ -1,12 +1,5 @@
-# Pre-work - *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
-
-Submitted by: Doron Griffin-Tann
-
-Time spent: 27 hours spent in total
-
-Link to project: (https://glitch.com/edit/#!/global-proximal-anorak)
+Link to project code: (https://glitch.com/edit/#!/global-proximal-anorak)
 
 ## Required Functionality
 
